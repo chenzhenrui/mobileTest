@@ -12,7 +12,7 @@ const BookingList = () => {
       setData(result);
       setError(null);
     } catch (err) {
-      setError(err.message);
+      setError(err?.message);
     }
   };
 
