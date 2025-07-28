@@ -7,7 +7,7 @@
 
 import { NewAppScreen } from '@react-native/new-app-screen';
 import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
-import BookingList from './src/omponents/BookingList';
+import BookingList from './src/components/BookingList';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
